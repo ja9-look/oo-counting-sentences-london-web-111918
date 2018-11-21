@@ -31,5 +31,4 @@ class String
     array.delete_if{|element| element.empty?}
     array.length
   end
-  end
 end
