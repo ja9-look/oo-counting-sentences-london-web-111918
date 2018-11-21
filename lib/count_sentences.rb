@@ -27,6 +27,7 @@ class String
   end
 
   def count_sentences
+    
       return self.length
   end
 end
