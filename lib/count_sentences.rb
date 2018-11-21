@@ -29,6 +29,6 @@ class String
   def count_sentences
     array = []
     array << self.split("/\.?\s+/")
-    return arr.length
+    return array.length
   end
 end
