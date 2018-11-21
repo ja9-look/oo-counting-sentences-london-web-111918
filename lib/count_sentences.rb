@@ -28,10 +28,8 @@ class String
 
   def count_sentences
     binding.pry
-    self.split("/\.?\s+/")
-    
-    else
-      return self.length
+    arr = self.split("/\.?\s+/")
+    return arr.length
     end
   end
 end
