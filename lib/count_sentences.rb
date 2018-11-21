@@ -29,7 +29,7 @@ class String
   def count_sentences
     binding.pry
     arr = self.split("/\.?\s+/")
-    return arr.length
+    return arr.count
     end
   end
 end
